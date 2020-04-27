@@ -53,13 +53,6 @@ a{
     justify-content:space-between;
 }
 
-menu_t{
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-}
-
 .logo{
     position: relative;
     width: 76px;
@@ -76,19 +69,18 @@ menu_t{
     top: 166px;
 }
 
-judul_login{
+#judul_login{
     position: absolute;
     left: 0%;
     right: 32.72%;
     top: 0%;
     bottom: 86.6%;
     font-weight: 800;
-    font-size: 56px;
-    
+    font-size: 56px; 
     color: #000000;
 }
 
-subtitle_login{
+#subtitle_login{
     position: absolute;
     left: 0.09%;
     right: 53.35%;
@@ -148,7 +140,7 @@ subtitle_login{
     border-radius: 40px;
 }
 
-create{
+#create{
     position: absolute;
     left: 8.11%;
     right: 79.01%;
@@ -160,7 +152,11 @@ create{
     color: #000000;
 }
 
-forget{
+#create:hover {
+    color:#F7941E;
+}
+
+#forget{
     position: absolute;
     left: 21.6%;
     right: 65.34%;
@@ -170,6 +166,10 @@ forget{
     font-size: 18px;
     line-height: 140.62%;
     color: #000000;
+}
+
+#forget:hover {
+    color:#F7941E;
 }
 
 #menu:hover {
@@ -220,7 +220,7 @@ forget{
     background-color: #231F20;
 }
 
-privacy{
+#privacy{
     position: relative;
     left: 75.56%;
     right: 5.21%;
@@ -233,7 +233,7 @@ privacy{
     color: #FAFAFA;
 }
 
-tentang{
+#tentang{
     position: absolute;                    
     width: 51px;
     height: 25px;
@@ -245,7 +245,7 @@ tentang{
     color: #FAFAFA;
 }
 
-follow{
+#follow{
     position: absolute;
     width: 76px;
     height: 25px;
@@ -265,6 +265,10 @@ follow{
     top: 36px;
     margin-left: 10px;
 }
+
+
+
+
 
 
 
