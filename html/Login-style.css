@@ -4,7 +4,7 @@ html, body{
 
 body{
     margin: 0;
-    background-color: var(--background_color_one);
+    background-color: white;
     font-family: Gilroy;
     font-style: normal;
 }
@@ -216,7 +216,7 @@ a{
     width: 1440px;
     height: 80px;
     left: 0px;
-    top: 730px;
+    top: 770px;
     background-color: #231F20;
 }
 
