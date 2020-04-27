@@ -6,7 +6,6 @@ body{
     margin: 0;
     background-color: white;
     font-family: Gilroy;
-    font-family: Gilroy;
     font-style: normal;
 }
 
@@ -14,8 +13,25 @@ a{
     text-decoration: none;
     color: #000000;  
 }
+input{
+    font-family: "Gilroy";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #F7941E;
+}
+
+::-webkit-inner-spin-button{
+    width: 1440px;
+    height: 116px;
+    background: #FAFAFAFA;
+}
 
 .wrapper{
+    position: absolute;
     width: 100%;
     max-width: 1440rem;
     margin: 0 auto;
@@ -25,11 +41,11 @@ a{
     position: absolute;
     width: 1440px;
     height: 116px;
-    left: 0px;
-    top: 0px;
+    background: #FAFAFAFA;
 }
 
 .kotak_tab{
+    position: absolute;
     width: 1440px;
     height: 116px;
     background: #FAFAFAFA;
