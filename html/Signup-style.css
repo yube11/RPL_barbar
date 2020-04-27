@@ -53,13 +53,6 @@ a{
     justify-content:space-between;
 }
 
-menu_t{
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-}
-
 .logo{
     position: relative;
     width: 76px;
@@ -76,7 +69,7 @@ menu_t{
     top: 166px;
 }
 
-judul_signup{
+#judul_signup{
     position: absolute;
     left: 0%;
     right: 32.72%;
@@ -88,7 +81,7 @@ judul_signup{
     color: #000000;
 }
 
-subtitle_signup{
+#subtitle_signup{
     position: absolute;
     left: 0.09%;
     right: 53.35%;
@@ -198,7 +191,7 @@ subtitle_signup{
     border-radius: 40px;
 }
 
-haveacc{
+#haveacc{
     position: absolute;
     width: 220px;
     height: 25px;
@@ -211,6 +204,10 @@ haveacc{
     line-height: 140.62%;
     color: #000000;
     
+}
+
+#haveacc:hover {
+    color:#F7941E; 
 }
 
 #menu:hover {
@@ -262,7 +259,7 @@ haveacc{
     background-color: #231F20;
 }
 
-privacy{
+#privacy{
     position: relative;
     left: 75.56%;
     right: 5.21%;
@@ -275,7 +272,7 @@ privacy{
     color: #FAFAFA;
 }
 
-tentang{
+#tentang{
     position: absolute;                    
     width: 51px;
     height: 25px;
@@ -287,7 +284,7 @@ tentang{
     color: #FAFAFA;
 }
 
-follow{
+#follow{
     position: absolute;
     width: 76px;
     height: 25px;
