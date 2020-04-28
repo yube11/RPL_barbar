@@ -4,7 +4,7 @@ html, body{
 
 body{
     margin: 0;
-    background-color: var(--background_color_one);
+    background-color: white;
     font-family: Gilroy;
     font-family: Gilroy;
     font-style: normal;
@@ -20,8 +20,9 @@ a{
 }
 
 .wrapper{
+    position: relative;
     width: 100%;
-    max-width: 1440rem;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -42,6 +43,7 @@ a{
 }
 
 .kotak_tab{
+    position: absolute;
     width: 1440px;
     height: 116px;
     background: #FAFAFAFA;
@@ -564,7 +566,7 @@ input{
     width: 1440px;
     height: 80px;
     left: 0px;
-    top: 2886px;
+    top: 2786px;
     background-color: #231F20;
 }
 
