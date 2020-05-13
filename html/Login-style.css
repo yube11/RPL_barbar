@@ -73,6 +73,17 @@ input{
     top: -8px;
 }
 
+#salah{
+    position: absolute;
+    width: 132px;
+    height: 20px;
+    left: 1px;
+    top: 138px;
+    font-weight: 800;
+    font-size: 14px;
+    color: #D93025;
+}
+
 .login{
     position: absolute;
     width: 1134px;
