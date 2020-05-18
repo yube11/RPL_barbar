@@ -1,0 +1,309 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: var(--background_color_one);
+    font-family: Gilroy;
+    font-family: Gilroy;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;  
+}
+
+.tab_{
+    margin-left:45px;
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#menu:hover {
+    color:#F7941E;  
+}
+
+#menu-active {
+    color:#F7941E;  
+}
+
+.tab{ 
+    position: absolute;
+    width: 1440px;
+    height: 116px;
+    left: 0px;
+    top: 0px;
+}
+
+.kotak_tab{
+    width: 1440px;
+    height: 116px;
+    background: #FAFAFAFA;
+}
+
+.menu{
+    position: relative;
+    width: 455.87px;
+    height: 28.63px;
+    left: 492px;
+    top: 44px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.tulisan_tab{
+    margin-left: 486px;
+    margin-top: 49.535px;
+    width: 468px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo{
+    position: relative;
+    width: 76px;
+    height: 73.29px;
+    left: 75px;
+    top: -8px;
+}
+
+.garis{
+    position: absolute;
+    width: 79px;
+    height: 2px;
+    left: 884.5px;
+    top: 70px;
+    background: #F7941E;
+}
+
+.search{
+    position: absolute;
+    width: 263px;
+    height: 43px;
+    left: 1093px;
+    top: 35px;
+}
+
+.kotak_search{
+    padding-left: 15px;
+    width: 247px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+}
+
+.search_gb{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 216px;
+    top: 12px;
+}
+
+::-webkit-input-placeholder{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F7941E 
+}
+
+input{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F7941E; 
+    outline: none;
+}
+
+.batas{
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    left: 0px;
+    top: 114px;
+    background-color: #F1F1F2;
+}
+
+.fotoprofil{
+    position: absolute;
+    width: 174px;
+    height: 174px;
+    left: calc(50% - 174px/2 - 453px);
+    top: calc(50% - 174px/2 - 75px);
+}
+
+#nama{
+    position: absolute;
+    left: calc(50% - 479px/2 - 78.5px);
+    top: calc(50% - 70px/2 - 127px);
+    font-weight: 800;
+    font-size: 48px;
+    color: #000000;
+}
+
+#username{
+    position: absolute;
+    left: calc(50% - 140px/2 - 247px);
+    top: calc(50% - 35px/2 - 91.5px);
+    font-weight: 800;
+    font-size: 24px;
+    color: #939393;
+}
+
+#poin{
+    position: absolute;
+    left: calc(50% - 162px/2 + 475px);
+    top: calc(50% - 70px/2 - 127px);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 145.8%;
+    color: #F7941E;
+}
+
+#create{
+    position: absolute;
+    left: 421px;
+    top: 282px;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 145.8%;
+    color: #939393;
+}
+
+.joined{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 405px;
+    top: 279.5px;
+}
+
+.kotakedit{
+    position: absolute;
+    left: 27.92%;
+    right: 65.35%;
+    top: 46.57%;
+    bottom: 48.29%;
+    width: 97px;
+    height: 36px;
+    background: #F7941E;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.kotakedit:hover {
+    box-shadow: 0px 1px 7px #F7941E;
+}
+
+#edit{
+    position: absolute;
+    left: 29.5px;
+    top: 7.5px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.kotaklog{
+    position: absolute;
+    left: 35.92%;
+    top: 46.57%;
+    bottom: 48.29%;
+    width: 97px;
+    height: 36px;
+    background: #231F20;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.kotaklog:hover {
+    box-shadow: 0px 1px 7px #231F20;
+}
+
+#logout{
+    position: absolute;
+    left: 12px;
+    top: 7.5px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.kotak{
+    position: absolute;
+    width: 1228px;
+    height: 327px;
+    left: calc(50% - 1228px/2);
+    top: calc(50% - 327px/2 - 57.5px);
+    background: #FFFFFF;
+    border-radius: 26px;
+}
+
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 735px;
+    background-color: #231F20;
+}
+
+#privacy{
+    position: relative;
+    left: 75.56%;
+    right: 5.21%;
+    top: 41.25%;
+    bottom: 41.25%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+#tentang{
+    position: absolute;                    
+    width: 51px;
+    height: 25px;
+    left: 75px;
+    top: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FAFAFA;
+}
+
+#follow{
+    position: absolute;
+    width: 76px;
+    height: 25px;
+    left: 75px;
+    top: 40px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FAFAFA;
+}
+
+.sosmed{
+    position: absolute;
+    width: 92px;
+    height: 29px;
+    left: 158px;
+    top: 36px;
+    margin-left: 10px;
+}
+
+

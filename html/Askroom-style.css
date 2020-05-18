@@ -1,0 +1,485 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: var(--background_color_one);
+    font-family: Gilroy;
+    font-family: Gilroy;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;  
+}
+
+.tab_{
+    margin-left:45px;
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#menu:hover {
+    color:#F7941E;  
+}
+
+#menu-active {
+    color:#F7941E;  
+}
+
+.tab{ 
+    position: absolute;
+    width: 1440px;
+    height: 116px;
+    left: 0px;
+    top: 0px;
+}
+
+.kotak_tab{
+    width: 1440px;
+    height: 116px;
+    background: #FAFAFAFA;
+}
+
+.menu{
+    position: relative;
+    width: 455.87px;
+    height: 28.63px;
+    left: 492px;
+    top: 44px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.tulisan_tab{
+    margin-left: 486px;
+    margin-top: 49.535px;
+    width: 468px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo{
+    position: relative;
+    width: 76px;
+    height: 73.29px;
+    left: 75px;
+    top: -8px;
+}
+
+.garis{
+    position: absolute;
+    width: 79px;
+    height: 2px;
+    left: 744.5px;
+    top: 70px;
+    background: #F7941E;
+}
+
+.search{
+    position: absolute;
+    width: 263px;
+    height: 43px;
+    left: 1093px;
+    top: 35px;
+}
+
+.kotak_search{
+    padding-left: 15px;
+    width: 247px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+}
+
+.search_gb{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 216px;
+    top: 12px;
+}
+
+::-webkit-input-placeholder{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F7941E 
+}
+
+input{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F7941E; 
+    outline: none;
+}
+
+.batas{
+    position: absolute;
+    width: 1440px;
+    height: 548px;
+    left: 0px;
+    top: 114px;
+    background-color: #F1F1F2;
+}
+
+.kotak{
+    position: absolute;
+    left: 12.92%;
+    right: 12.92%;
+    top: 25.18%;
+    bottom: 25.18%;
+    height: 272px;
+    width: 1068px;
+    background: #FFFFFF;
+    border-radius: 27px;
+}
+
+#ask{
+    position: absolute;
+    left: 19.44%;
+    right: 48.33%;
+    top: 35.77%;
+    bottom: 35.77%;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 111.3%;
+    color: #000000;
+}
+
+.tambah{
+    position: absolute;
+    left: 69.86%;
+    right: 21.11%;
+    top: 38.14%;
+    bottom: 38.14%;
+    cursor: pointer;
+    border-radius: 100px;
+    outline: none;
+}
+
+.tambah:hover {
+    box-shadow: 0px 1px 20px #F7941E;
+}
+.recent{
+    position: absolute;
+    width: 1186px;
+    height: 1292px;
+    left: 127px;
+    top: 741px;
+}
+
+#judul{
+    position: absolute;
+    left: 21.67%;
+    right: 23.69%;
+    top: 0%;
+    bottom: 97.14%;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    color: #000000;
+}
+
+#sub{
+    position: absolute;
+    left: 35.16%;
+    top: 4.64%;
+    bottom: 93.42%;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+.border{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 8.9%;
+    bottom: 0%;
+    height: 1237px;
+    width: 1186px;
+    border: 2px solid #F7941E;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+
+.que{
+    position: relative;
+    margin-top: 41px;
+    left: 61px;
+    width: 1068px;
+    height: 205px;
+}
+
+
+.fotoprofil{
+    position: absolute;
+    left: 5.14%;
+    right: 88.45%;
+    top: 0%;
+    bottom: 62.93%;
+    border-radius: 100px;
+}
+
+#nama{
+    position: absolute;
+    top:5px;
+    left: 106px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+}
+
+#tanggal{
+    position: absolute;
+    left: 106px;
+    top: 17.07%;
+    font-weight: 300;
+    font-size: 14px;
+    color: #939393;
+}
+
+.garisbtas{
+    position: absolute;
+    top: 100%;
+    left: -62px;
+    width: 1181px;
+    border: 1px solid #F7941E;
+    background-color: #F7941E ;
+}
+
+#isi{
+    position: absolute;
+    left: 106px;
+    right: 4.81%;
+    top: 29.76%;
+    bottom: 44.88%;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+.jawab{
+    position: absolute;
+    height: 36px;
+    width: 97px;
+    left: 106px;
+    top: 61.95%;
+    background: #F7941E;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.jawab:hover{
+    box-shadow: 0px 1px 15px #F7941E;
+    cursor: pointer;
+}
+
+#jawab{
+    position: absolute;
+    left:18px;
+    top:7.1px;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.queakhir{
+    position: relative;
+    margin-top: 41px;
+    left: 61px;
+    width: 1068px;
+    height: 163px;
+}
+
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 2235px;
+    background-color: #231F20;
+}
+
+#privacy{
+    position: relative;
+    left: 75.56%;
+    right: 5.21%;
+    top: 41.25%;
+    bottom: 41.25%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+#tentang{
+    position: absolute;                    
+    width: 51px;
+    height: 25px;
+    left: 75px;
+    top: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FAFAFA;
+}
+
+#follow{
+    position: absolute;
+    width: 76px;
+    height: 25px;
+    left: 75px;
+    top: 40px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FAFAFA;
+}
+
+.sosmed{
+    position: absolute;
+    width: 92px;
+    height: 29px;
+    left: 158px;
+    top: 36px;
+    margin-left: 10px;
+}  
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 1100px;
+    height: 410px;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+  
+.popup .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F7941E;
+}
+
+.popup .close:hover {
+    color:#F7941E;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+  
+@media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+}
+
+.kotakask{
+    outline: none;
+    position: absolute;
+    width: 1040px;
+    height: 300px;
+    left:47px;
+    top:50px;
+    border: 2px solid #939393;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    padding:10px;
+}
+
+#submit-btn {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 145.8%;
+    position: absolute;
+    width: 180px;
+    height: 55px;                    
+    background: #F7941E;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: "Gilroy";
+    margin: 0 auto;
+    transition: 0.25s;
+    top:370px;
+    left:47px;
+    transition: all 200ms;
+}
+
+#submit-btn:hover {
+    box-shadow: 0px 1px 10px #F7941E;
+}
+
+#link {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 145.8%;
+    position: absolute;
+    width: 180px;
+    height: 55px;                    
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: "Gilroy";
+}
+
+.box{
+    position: absolute;
+    top:47px;
+    left:33px;
+    cursor: pointer;
+    border-radius: 100px;
+}
