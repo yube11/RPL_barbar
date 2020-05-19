@@ -6,7 +6,17 @@
         <meta name="viewport" content = "width=device-width, initial-scale=1.0">
         <meta http.equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="Jawab-style.css">
+        <script>
+            function pressed(e) {
+                // Has the enter key been pressed?
+                if ( (window.event ? event.keyCode : e.which) == 13) { 
+                    // If it has been so, manually submit the <form>
+                    document.forms[0].submit();
+                }
+            }
+        </script>
         <tittle></tittle>
+        
 </head>
 <body>
     <div class="wrapper">
@@ -68,8 +78,10 @@
                             <a id="nama">Lorem Ipsum</a><br>
                             <a id="tanggal">10/10/2020</a><br>
                             <a id="isi">Lorem ipsum dolor sit amet, consectetur adipisci elit. Mnas dictum nisi et massa lobortis, nec ornare nulla bibendum. Sed et convallis nulla, sed tristique.</a>    
-                            <textarea id="reply" placeholder="Comment this reply"></textarea>
-                            
+                            <form action= php>
+                                <textarea onkeydown="pressed(event)" id="reply" placeholder="Comment this reply"></textarea>
+                            </form>
+    
                         </div>
                         <div class="jawabannext">
                             <div class="fotoprofil">
@@ -78,7 +90,9 @@
                             <a id="nama">Lorem Ipsum</a><br>
                             <a id="tanggal">10/10/2020</a><br>
                             <a id="isi">Lorem ipsum dolor sit amet, consectetur adipisci elit. Mnas dictum nisi et massa lobortis, nec ornare nulla bibendum. Sed et convallis nulla, sed tristique.</a>    
-                            <textarea id="reply" placeholder="Comment this reply"></textarea>
+                            <form action= php>
+                                <textarea onkeydown="pressed(event)" id="reply" placeholder="Comment this reply"></textarea>
+                            </form>
                         </div>
                         <div class="jawabannext">
                             <div class="fotoprofil">
@@ -87,7 +101,9 @@
                             <a id="nama">Lorem Ipsum</a><br>
                             <a id="tanggal">10/10/2020</a><br>
                             <a id="isi">Lorem ipsum dolor sit amet, consectetur adipisci elit. Mnas dictum nisi et massa lobortis, nec ornare nulla bibendum. Sed et convallis nulla, sed tristique.</a>    
-                            <textarea id="reply" placeholder="Comment this reply"></textarea>
+                            <form action= php>
+                                <textarea onkeydown="pressed(event)" id="reply" placeholder="Comment this reply"></textarea>
+                            </form>
                         </div>
 
                         <div class="jawabanreply">
@@ -97,7 +113,9 @@
                             <a id="nama">Lorem Ipsum</a><br>
                             <a id="tanggal">10/10/2020</a><br>
                             <a id="isireply">Lorem ipsum dolor sit amet, nsectetur adipisci elit. Mnas dictum nisi et massa lobortis, nec ornare nulla bibendum. Sed et convallis nulla, sed tristique.</a>    
-                            <textarea id="replyreply" placeholder="Comment this reply"></textarea>
+                            <form action= php>
+                                <textarea onkeydown="pressed(event)" id="replyreply" placeholder="Comment this reply"></textarea>
+                            </form>
                         </div>
                         <div class="jawabanreply">
                             <div class="fotoprofil">
@@ -106,24 +124,14 @@
                             <a id="nama">Lorem Ipsum</a><br>
                             <a id="tanggal">10/10/2020</a><br>
                             <a id="isireply">Lorem ipsum dolor sit amet, consectetur adipisci elit. Mnas dictum nisi et massa lobortis, nec ornare nulla bibendum. Sed et convallis nulla, sed tristique.</a>    
-                            <textarea id="replyreply" placeholder="Comment this reply"></textarea>
+                            <form action= php>
+                                <textarea onkeydown="pressed(event)" id="replyreply" placeholder="Comment this reply"></textarea>
+                            </form>
                         </div>
-                    </div>
-                   
+                    </div> 
                  </div>
                  <br />      
-
-                
-               
             </div>
-            
-
-            
-            
-            
-            
-            
-
         </header>
     </div>
 </body>
