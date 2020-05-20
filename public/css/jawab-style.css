@@ -1,0 +1,461 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: var(--background_color_one);
+    font-family: Gilroy;
+    font-family: Gilroy;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;  
+}
+
+.tab_{
+    margin-left:45px;
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#menu:hover {
+    color:#F7941E;  
+}
+
+#menu-active {
+    color:#F7941E;  
+}
+
+.tab{ 
+    position: absolute;
+    width: 1440px;
+    height: 116px;
+    left: 0px;
+    top: 0px;
+}
+
+.kotak_tab{
+    width: 1440px;
+    height: 116px;
+    background: #FAFAFAFA;
+}
+
+.menu{
+    position: relative;
+    width: 455.87px;
+    height: 28.63px;
+    left: 492px;
+    top: 44px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.tulisan_tab{
+    margin-left: 486px;
+    margin-top: 49.535px;
+    width: 468px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo{
+    position: relative;
+    width: 76px;
+    height: 73.29px;
+    left: 75px;
+    top: -8px;
+}
+
+.garis{
+    position: absolute;
+    width: 79px;
+    height: 2px;
+    left: 744.5px;
+    top: 70px;
+    background: #F7941E;
+}
+
+.search{
+    position: absolute;
+    width: 263px;
+    height: 43px;
+    left: 1093px;
+    top: 35px;
+}
+
+.kotak_search{
+    padding-left: 15px;
+    width: 247px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+}
+
+.search_gb{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 216px;
+    top: 12px;
+}
+
+::-webkit-input-placeholder{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F7941E 
+}
+
+input{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F7941E; 
+    outline: none;
+}
+
+.batas{
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 114px;
+    background-color: #F1F1F2;
+}
+
+.kotak1{
+    position: absolute;
+    left: 5.21%;
+    right: 55.42%;
+    top: 7.86%;
+    background: #FFFFFF;
+    border-radius: 27px;
+    height: 492px;
+    width: 567px;
+}
+
+.pertanyaan{
+    position: relative;
+    left: 35px;
+    top:35px
+    
+}
+
+.fotoprofilus{
+    position: absolute;
+    height: 52px;
+    width: 52px;
+    border-radius: 100px;
+}
+
+#namaus{
+    position: absolute;
+    left: 80px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+}
+
+#isius{
+    position: absolute;
+    left: 80px;
+    right: 38px;
+    top: 65px;
+    width: 410px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+
+}
+
+#tanggalus{
+    position: absolute;
+    left: 80px;
+    top: 35px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #939393;
+}
+
+.kotak2{
+    position: absolute;
+    display:block;
+    left: 48.89%;
+    right: 5.83%;
+    top: 7.86%;
+    bottom: 7.34%;
+    background: #FFFFFF;
+    border-radius: 27px;
+    height: 415px;
+    width: 595px;
+    padding:38px;
+}
+
+.scroll{
+    display:block;
+    height: 381px;
+    width: 595px;
+    overflow:auto;
+    margin-top:34px;
+}
+
+.jawaban{
+    position: relative;
+}
+
+.jawabannext{
+    position: relative;
+    margin-top:180px;
+}
+
+.jawabanreply{
+    position: relative;
+    margin-top:185px;
+    left:80px;
+    width: 335px;
+}
+
+#isireply{
+    position: absolute;
+    left: 80px;
+    width: 350px;
+    top: 65px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+#replyreply{
+    position: absolute;
+    left: 80px;
+    top: 160px;
+    font-weight: 300;
+    margin-bottom:20px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+    background: #F0F0F0;
+    border-radius: 15px;
+    height: 23px;
+    width: 330px;
+    outline:none;
+    padding:10px;
+}
+
+.fotoprofil{
+    position: absolute;
+    height: 52px;
+    width: 52px;
+    border-radius: 100px;
+}
+
+#nama{
+    position: absolute;
+    left: 80px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+}
+
+
+#isi{
+    position: absolute;
+    left: 80px;
+    right: 38px;
+    top: 65px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+
+}
+
+#tanggal{
+    position: absolute;
+    left: 80px;
+    top: 35px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #939393;
+}
+
+#reply{
+    position: absolute;
+    left: 80px;
+    top: 140px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+    position: absolute;
+    background: #F0F0F0;
+    border-radius: 15px;
+    height: 23px;
+    width: 410px;
+    outline:none;
+    padding:10px;
+}
+
+
+
+.garisbtas{
+
+    top: 100%;
+    left: -62px;
+    width: 1181px;
+    border: 1px solid #F7941E;
+    background-color: #F7941E ;
+}
+
+
+.jawab{
+    position: absolute;
+    height: 36px;
+    width: 97px;
+    left: 106px;
+    top: 61.95%;
+    background: #F7941E;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.jawab:hover{
+    box-shadow: 0px 1px 15px #F7941E;
+    cursor: pointer;
+}
+
+#jawab{
+    position: absolute;
+    left:18px;
+    top:7.1px;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.queakhir{
+    position: relative;
+    margin-top: 41px;
+    left: 61px;
+    width: 1068px;
+    height: 163px;
+}
+
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 710px;
+    background-color: #231F20;
+}
+
+#privacy{
+    position: relative;
+    left: 75.56%;
+    right: 5.21%;
+    top: 41.25%;
+    bottom: 41.25%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+#tentang{
+    position: absolute;                    
+    width: 51px;
+    height: 25px;
+    left: 75px;
+    top: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FAFAFA;
+}
+
+#follow{
+    position: absolute;
+    width: 76px;
+    height: 25px;
+    left: 75px;
+    top: 40px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FAFAFA;
+}
+
+.sosmed{
+    position: absolute;
+    width: 92px;
+    height: 29px;
+    left: 158px;
+    top: 36px;
+    margin-left: 10px;
+}  
+
+.kotakjawab{
+    outline: none;
+    position: absolute;
+    width: 415px;
+    height: 160px;
+    left:78px;
+    top:200px;
+    border: 2px solid #939393;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    border-radius: 10px;
+   
+    padding:10px;
+}
+
+#juduljawaban{
+    position: absolute;
+    top:15px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #F7941E;
+    
+}
+
+#submit-btn {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 145.8%;
+    position: absolute;
+    width: 100px;
+    height: 40px;                    
+    background: #F7941E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: "Gilroy";
+    margin: 0 auto;
+    transition: 0.25s;
+    top:379px;
+    left:78px;
+    transition: all 200ms;
+}
+
+#submit-btn:hover {
+    box-shadow: 0px 1px 10px #F7941E;
+}

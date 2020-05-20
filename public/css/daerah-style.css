@@ -1,0 +1,290 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: var(--background_color_one);
+    font-family: Gilroy;
+    font-family: Gilroy;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;  
+}
+
+.tab_{
+    margin-left:45px;
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#menu:hover {
+    color:#F7941E;  
+}
+
+#menu-active {
+    color:#F7941E;  
+}
+
+.tab{ 
+    position: absolute;
+    width: 1440px;
+    height: 116px;
+    left: 0px;
+    top: 0px;
+}
+
+.kotak_tab{
+    width: 1440px;
+    height: 116px;
+    background: #FAFAFAFA;
+}
+
+.menu{
+    position: relative;
+    width: 455.87px;
+    height: 28.63px;
+    left: 492px;
+    top: 44px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.tulisan_tab{
+    margin-left: 486px;
+    margin-top: 49.535px;
+    width: 468px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo{
+    position: relative;
+    width: 76px;
+    height: 73.29px;
+    left: 75px;
+    top: -8px;
+}
+
+.garis{
+    position: absolute;
+    width: 79px;
+    height: 2px;
+    left: 602px;
+    top: 70px;
+    background: #F7941E;
+}
+
+.search{
+    position: absolute;
+    width: 263px;
+    height: 43px;
+    left: 1093px;
+    top: 35px;
+}
+
+.kotak_search{
+    padding-left: 15px;
+    width: 247px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+}
+
+.search_gb{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 216px;
+    top: 12px;
+}
+
+::-webkit-input-placeholder{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F7941E 
+}
+
+input{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F7941E 
+}
+
+
+.kategori{
+    min-height: 500px;
+    overflow: auto;
+    padding-top: 200px;
+}
+
+#judul_kat{
+    position: absolute;
+    left: 21.97%;
+    right: 22.65%;
+    top: 200px;
+    bottom: 96.7%;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+
+#sub_judul{
+    position: absolute;
+    left: 16.92%;
+    right: 17.26%;
+    top: 260px;
+    bottom: 92.41%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 135.94%;
+    text-align: center;
+    color: #000000;
+}
+
+.enam_kat{
+    position: absolute;
+    width: 1170px;
+    height: 946px;
+    left: 0px;
+    top: 174px;
+}
+
+.makanan1{
+    background-color: white;
+    padding: 25px;
+    width: 300px;
+    margin: 25px;
+    float: left; 
+}
+
+.kotak_daerah{
+    position: absolute;
+    height: 436px;
+    width: 350px;
+    background: #FAFAFAFA;
+    margin: 100px;
+}
+
+.kotak_daerah:hover{
+    background: #FFFFFF;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.kotak_daerah img{
+    width: 350px;
+    height: 270px;
+}
+
+#daerah{
+    position: absolute;
+    left: 8.75%;
+    right: 8.89%;
+    top: 67.43%;
+    bottom: 27.06%;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#tanggal{
+    position: absolute;
+    left: 8.89%;
+    right: 8.89%;
+    top: 73.43%;
+    bottom: 27.06%;
+    font-size: 12px;
+    color: #000000;
+}
+
+#more{
+    position: absolute;
+    left: 8.89%;
+    right: 66.3%;
+    top: 89.91%;
+    bottom: 5.5%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135.94%;
+    color: #000000;
+}
+
+#more:hover{
+    color: #F7941E;
+}
+
+
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 1450px;
+    background-color: #231F20;
+}
+
+#privacy{
+    position: relative;
+    left: 75.56%;
+    right: 5.21%;
+    top: 41.25%;
+    bottom: 41.25%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+#tentang{
+    position: absolute;                    
+    width: 51px;
+    height: 25px;
+    left: 75px;
+    top: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FAFAFA;
+}
+
+#follow{
+    position: absolute;
+    width: 76px;
+    height: 25px;
+    left: 75px;
+    top: 40px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FAFAFA;
+}
+
+.sosmed{
+    position: absolute;
+    width: 92px;
+    height: 29px;
+    left: 158px;
+    top: 36px;
+    margin-left: 10px;
+}
+
+
